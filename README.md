@@ -45,11 +45,16 @@
 <h2 style="color: #117A65;">Modeling</h2>
 <p>We explored and evaluated several models, including:</p>
 <ul>
-    <li>Linear Regression</li>
+    <li>Gradient Boosting</li>
     <li>Random Forest Regressor</li>
     <li>XGBoost Regressor</li>
 </ul>
 <p>RandomizedSearchCV was employed for hyperparameter optimization to enhance model performance.</p>
+
+<h2 style="color: #117A65;">Reason for Choosing XGBoost</h2>
+<p>I have chosen XGBoost based on R2 Score. I implemented Random Forest, XGBoost, and Gradient Boosting on this data and extracted R2 Score, MSE, and RMSE. Then I chose XGBoost based on that.</p>
+
+</body>
 
 <h2 style="color: #117A65;">Results</h2>
 <p>The best-performing model achieved the following metrics:</p>
